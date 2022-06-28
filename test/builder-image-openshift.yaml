@@ -1,0 +1,8 @@
+schemaVersion: "2.0.0"
+
+commandTests:
+  - name: "oc version 3.11+"
+    command: "oc"
+    args: ["version"]
+    expectedOutput: ["v3\\.11\\.\\d+\\+\\w{7}"]
+    exitCode: 0
