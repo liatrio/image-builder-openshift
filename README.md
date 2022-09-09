@@ -33,4 +33,4 @@ stage('Build') {
 
 ## What is installed on this image?
 - Version [3.11.0](https://github.com/openshift/origin/tree/release-3.11) of OKD.
-
+- Version [3.9.4](https://hub.docker.com/layers/alpine/helm/3.9.4/images/sha256-b1883b29f2d04ab86cc4ac052ac8a897fd360e16bbec9dcb37268bcca7d26ed8?context=explore) of Helm.
